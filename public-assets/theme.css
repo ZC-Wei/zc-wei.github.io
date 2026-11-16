@@ -1,0 +1,22 @@
+:root {
+  --ink: #193651;
+  --navy: #102a47;
+  --blue: #245887;
+  --blue-accent: #35689a;
+  --surface: #eaf2f9;
+  --paper: #f8fbff;
+  --sky: #bedef8;
+  --muted: #415973;
+  --on-navy: #e3effb;
+  --footer-bg: #0b213a;
+  --footer-muted: #b8cde0;
+  --line: rgba(25, 54, 81, .18);
+  --shadow: rgba(25, 54, 81, .15);
+  --hero-rgb: 8, 24, 44;
+  --blue-rgb: 36, 88, 135;
+}
+
+:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
