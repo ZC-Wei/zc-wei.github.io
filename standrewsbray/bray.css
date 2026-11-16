@@ -45,9 +45,7 @@ h3 { font-size: 1.2rem; line-height: 1.4; }
 .round-arrow:hover { color: var(--navy); background: var(--sky); }
 .mission blockquote { margin: 0; padding: clamp(20px, 3.6vw, 42px); border-left: 3px solid var(--blue-accent); background: var(--surface); font: 400 clamp(1.15rem, 2.15vw, 1.45rem)/1.65 var(--font-heading); }
 .about-details { align-items: start; margin-top: clamp(35px, 6vw, 70px); padding-top: 30px; border-top: 1px solid var(--line); }
-.minister { display: grid; grid-template-columns: minmax(90px, .5fr) 1fr; align-items: start; gap: clamp(14px, 2vw, 24px); }
-.minister img { width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; object-position: center; }
-.minister p:not(.eyebrow), .safeguarding p { margin: 8px 0 14px; color: var(--muted); }
+.safeguarding p { margin: 8px 0 14px; color: var(--muted); }
 .safeguarding { padding: 24px; background: var(--surface); }
 .text-link { text-decoration: underline; text-underline-offset: .22em; overflow-wrap: anywhere; }
 .visit { background: var(--blue); }
