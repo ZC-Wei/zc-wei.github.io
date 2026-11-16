@@ -1,6 +1,6 @@
 const menu = document.querySelector('.menu-button');
 const nav = document.querySelector('#site-nav');
-const compact = window.matchMedia('(max-width: 820px)');
+const compact = window.matchMedia('(max-width: 980px)');
 
 function setMenu(open) {
   menu.setAttribute('aria-expanded', String(open));
